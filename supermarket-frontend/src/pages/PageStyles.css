@@ -1,0 +1,205 @@
+.page-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 420px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.main-button,
+.secondary-button,
+.bottom-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0078d7;
+  color: white;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.secondary-button:hover {
+  background-color: #005fa3;
+}
+
+.offer-text {
+  color: darkgreen;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bottom-buttons {
+  margin-top: 20px;
+}
+
+.billing-box {
+  width: 500px;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin: 8px 0px;
+} 
+
+
+.quantity-input {
+  width: 60px;
+  text-align: right;
+  padding: 5px;
+}
+
+.bill-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+/* Make item headers and rows align perfectly */
+.items-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+}
+
+/* Button color change to soft orange */
+.main-button,
+.secondary-button,
+.bottom-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f5a623; /* soft orange */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-button:hover,
+.secondary-button:hover,
+.bottom-buttons button:hover {
+  background-color: #d9881f; /* darker orange on hover */
+}
+
+/* Discount text near bill */
+.discount-text {
+  color: darkorange;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* Properly aligned header and item rows using grid */
+.items-header,
+.item-row {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 0.6fr; /* consistent widths for each column */
+  align-items: center;
+  text-align: center;
+  padding: 6px 0;
+}
+
+.items-header {
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Quantity input styling */
+.quantity-input {
+  width: 70px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+/* Slightly darker orange for all buttons */
+.main-button,
+.secondary-button,
+.bottom-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e98b25; /* darker orange shade */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-button:hover,
+.secondary-button:hover,
+.bottom-buttons button:hover {
+  background-color: #c9731d; /* hover shade */
+}
+
+/* Discount label */
+.discount-text {
+  color: #ff7b00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.main-button,
+.secondary-button,
+.bottom-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e08b3a; /* dark orange */
+  color: white;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.secondary-button:hover {
+  background-color: #c6762f; /* slightly darker on hover */
+}
+
+/* Item row alignment */
+
